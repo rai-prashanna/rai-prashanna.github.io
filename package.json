@@ -1,0 +1,36 @@
+{
+  "name": "patrick-com-np",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "docusaurus start",
+    "build": "docusaurus build",
+    "swizzle": "docusaurus swizzle",
+    "deploy": "docusaurus deploy",
+    "create:blog": "node ./cmds/blog/command.js"
+  },
+  "dependencies": {
+    "@docusaurus/core": "^2.0.0-alpha.60",
+    "@docusaurus/preset-classic": "^2.0.0-alpha.60",
+    "classnames": "^2.2.6",
+    "inquirer": "^7.1.0",
+    "lodash.kebabcase": "^4.1.1",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4",
+    "react-ui-cards": "^2.0.0",
+    "react-vertical-timeline-component": "^3.0.0",
+    "styled-components": "^5.1.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
