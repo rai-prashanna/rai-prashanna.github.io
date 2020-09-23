@@ -1,0 +1,12 @@
+{
+  "unversionedId": "doc1",
+  "id": "doc1",
+  "isDocsHomePage": false,
+  "title": "doc1",
+  "description": "<!--",
+  "source": "@site/docs/doc1.md",
+  "slug": "/doc1",
+  "permalink": "/docs/doc1",
+  "version": "current",
+  "sidebar_label": " "
+}

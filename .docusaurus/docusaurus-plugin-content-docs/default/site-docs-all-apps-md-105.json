@@ -1,0 +1,16 @@
+{
+  "unversionedId": "all-apps",
+  "id": "all-apps",
+  "isDocsHomePage": false,
+  "title": "100 Apps",
+  "description": "coming soon",
+  "source": "@site/docs/all-apps.md",
+  "slug": "/all-apps",
+  "permalink": "/docs/all-apps",
+  "version": "current",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "My Works",
+    "permalink": "/docs/projects"
+  }
+}

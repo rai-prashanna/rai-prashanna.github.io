@@ -1,0 +1,16 @@
+{
+  "unversionedId": "experience",
+  "id": "experience",
+  "isDocsHomePage": false,
+  "title": "Experience",
+  "source": "@site/docs/experience.md",
+  "slug": "/experience",
+  "permalink": "/docs/experience",
+  "version": "current",
+  "sidebar_label": "Work Experience",
+  "sidebar": "someSidebar",
+  "next": {
+    "title": "My Background",
+    "permalink": "/docs/my-background"
+  }
+}

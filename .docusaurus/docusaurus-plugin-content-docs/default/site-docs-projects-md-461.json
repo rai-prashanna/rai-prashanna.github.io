@@ -1,0 +1,19 @@
+{
+  "unversionedId": "projects",
+  "id": "projects",
+  "isDocsHomePage": false,
+  "title": "My Works",
+  "source": "@site/docs/projects.md",
+  "slug": "/projects",
+  "permalink": "/docs/projects",
+  "version": "current",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "My Background",
+    "permalink": "/docs/my-background"
+  },
+  "next": {
+    "title": "100 Apps",
+    "permalink": "/docs/all-apps"
+  }
+}

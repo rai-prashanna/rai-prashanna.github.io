@@ -1,0 +1,245 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "loadedVersions": [
+        {
+          "versionName": "current",
+          "versionLabel": "Next",
+          "versionPath": "/docs",
+          "isLast": true,
+          "routePriority": -1,
+          "sidebarFilePath": "/home/prai/workspace/react-workspace/personal-website/sidebars.js",
+          "docsDirPath": "/home/prai/workspace/react-workspace/personal-website/docs",
+          "mainDocId": "experience",
+          "sidebars": {
+            "someSidebar": [
+              {
+                "collapsed": true,
+                "type": "category",
+                "label": "Experience",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "experience"
+                  }
+                ]
+              },
+              {
+                "collapsed": true,
+                "type": "category",
+                "label": "Background",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "my-background"
+                  }
+                ]
+              },
+              {
+                "collapsed": true,
+                "type": "category",
+                "label": "Projects",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "projects"
+                  }
+                ]
+              },
+              {
+                "collapsed": true,
+                "type": "category",
+                "label": "My 100 Apps",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "all-apps"
+                  }
+                ]
+              }
+            ]
+          },
+          "permalinkToSidebar": {
+            "/docs/all-apps": "someSidebar",
+            "/docs/experience": "someSidebar",
+            "/docs/my-background": "someSidebar",
+            "/docs/projects": "someSidebar"
+          },
+          "docs": [
+            {
+              "unversionedId": "all-apps",
+              "id": "all-apps",
+              "isDocsHomePage": false,
+              "title": "100 Apps",
+              "description": "coming soon",
+              "source": "@site/docs/all-apps.md",
+              "slug": "/all-apps",
+              "permalink": "/docs/all-apps",
+              "version": "current",
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "My Works",
+                "permalink": "/docs/projects"
+              }
+            },
+            {
+              "unversionedId": "doc1",
+              "id": "doc1",
+              "isDocsHomePage": false,
+              "title": "doc1",
+              "description": "<!--",
+              "source": "@site/docs/doc1.md",
+              "slug": "/doc1",
+              "permalink": "/docs/doc1",
+              "version": "current",
+              "sidebar_label": " "
+            },
+            {
+              "unversionedId": "experience",
+              "id": "experience",
+              "isDocsHomePage": false,
+              "title": "Experience",
+              "source": "@site/docs/experience.md",
+              "slug": "/experience",
+              "permalink": "/docs/experience",
+              "version": "current",
+              "sidebar_label": "Work Experience",
+              "sidebar": "someSidebar",
+              "next": {
+                "title": "My Background",
+                "permalink": "/docs/my-background"
+              }
+            },
+            {
+              "unversionedId": "my-background",
+              "id": "my-background",
+              "isDocsHomePage": false,
+              "title": "My Background",
+              "description": "I am always striving to be broaden my knowledge and sharpen my skills. I love working in environment with lots of challenges and brilliant people to share those challenges with. I am very passionate about programming. I have keen eye for new paradigms and architecture. Though I am comfortable in one language, I also like to explore new languages. I also like indulging my time with my pet projects and participating in hackathons also i like to stay updated with the latest technologies.",
+              "source": "@site/docs/background.md",
+              "slug": "/my-background",
+              "permalink": "/docs/my-background",
+              "version": "current",
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Experience",
+                "permalink": "/docs/experience"
+              },
+              "next": {
+                "title": "My Works",
+                "permalink": "/docs/projects"
+              }
+            },
+            {
+              "unversionedId": "projects",
+              "id": "projects",
+              "isDocsHomePage": false,
+              "title": "My Works",
+              "source": "@site/docs/projects.md",
+              "slug": "/projects",
+              "permalink": "/docs/projects",
+              "version": "current",
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "My Background",
+                "permalink": "/docs/my-background"
+              },
+              "next": {
+                "title": "100 Apps",
+                "permalink": "/docs/all-apps"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "docusaurus-plugin-content-blog": {
+    "default": {
+      "blogPosts": [
+        {
+          "id": "My goal",
+          "metadata": {
+            "permalink": "/blog/2020/06/05/my-goal",
+            "source": "@site/blog/2020-6-6-my-goal.md",
+            "description": "Learning random things on the internet that pops in your Reddit, Twitter is always fun and interesting, but learning things to reach your goal is always fascinating and a satisfactory thing. what’s the best way to go about acquiring intellectual capital with which to fund your portfolio? Here are a few suggestions.",
+            "date": "2020-06-05T22:00:00.000Z",
+            "tags": [],
+            "title": "My goal",
+            "readingTime": 2.37,
+            "truncated": true,
+            "nextItem": {
+              "title": "Hello Docker",
+              "permalink": "/blog/2019/05/28/docker"
+            }
+          }
+        },
+        {
+          "id": "Hello Docker",
+          "metadata": {
+            "permalink": "/blog/2019/05/28/docker",
+            "source": "@site/blog/2019-05-28-docker.md",
+            "description": "Docker ?",
+            "date": "2019-05-28T00:00:00.000Z",
+            "tags": [
+              {
+                "label": "docker",
+                "permalink": "/blog/tags/docker"
+              }
+            ],
+            "title": "Hello Docker",
+            "readingTime": 2.625,
+            "truncated": true,
+            "prevItem": {
+              "title": "My goal",
+              "permalink": "/blog/2020/06/05/my-goal"
+            }
+          }
+        }
+      ],
+      "blogListPaginated": [
+        {
+          "metadata": {
+            "permalink": "/blog",
+            "page": 1,
+            "postsPerPage": 10,
+            "totalPages": 1,
+            "totalCount": 2,
+            "previousPage": null,
+            "nextPage": null,
+            "blogDescription": "Blog"
+          },
+          "items": [
+            "My goal",
+            "Hello Docker"
+          ]
+        }
+      ],
+      "blogTags": {
+        "docker": {
+          "name": "docker",
+          "items": [
+            "Hello Docker"
+          ],
+          "permalink": "/blog/tags/docker"
+        }
+      },
+      "blogTagsListPath": "/blog/tags"
+    }
+  },
+  "docusaurus-plugin-content-pages": {
+    "default": [
+      {
+        "type": "jsx",
+        "permalink": "/",
+        "source": "@site/src/pages/index.js"
+      }
+    ]
+  },
+  "docusaurus-plugin-debug": {
+    "default": null
+  },
+  "docusaurus-theme-classic": {
+    "default": null
+  }
+}

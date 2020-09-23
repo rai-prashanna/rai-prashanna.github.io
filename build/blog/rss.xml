@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Prashanna Rai Blog</title>
+        <link>https://patrick.github.io/blog</link>
+        <description>Prashanna Rai Blog</description>
+        <lastBuildDate>Fri, 05 Jun 2020 22:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <copyright>Copyright © 2020 Facebook, Inc.</copyright>
+        <item>
+            <title><![CDATA[My goal]]></title>
+            <link>https://patrick.github.io/blog/2020/06/05/my-goal</link>
+            <guid>My goal</guid>
+            <pubDate>Fri, 05 Jun 2020 22:00:00 GMT</pubDate>
+            <description><![CDATA[Learning random things on the internet that pops in your Reddit, Twitter is always fun and interesting, but learning things to reach your goal is always fascinating and a satisfactory thing. what’s the best way to go about acquiring intellectual capital with which to fund your portfolio? Here are a few suggestions.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Hello Docker]]></title>
+            <link>https://patrick.github.io/blog/2019/05/28/docker</link>
+            <guid>Hello Docker</guid>
+            <pubDate>Tue, 28 May 2019 00:00:00 GMT</pubDate>
+            <description><![CDATA[Docker ?]]></description>
+        </item>
+    </channel>
+</rss>
