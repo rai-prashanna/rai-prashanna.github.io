@@ -85,7 +85,7 @@ function Home() {
                 "button   button--primary button--lg",
                 styles.getStarted
               )}
-              href={useBaseUrl("prashanna-2019-v9-Full-Stack.pdf")}
+              href={useBaseUrl("prashanna-2019-v10-Full-Stack.pdf")}
             >
               Download Resume
             </a>
