@@ -94,7 +94,7 @@ export default {
       {
         "docs": {
           "path": "docs",
-          "sidebarPath": "/home/prai/workspace/react-workspace/personal-website/sidebars.js"
+          "sidebarPath": "/home/prai/temp/rai-prashanna.github.io/sidebars.js"
         },
         "blog": {
           "showReadingTime": true,
@@ -104,7 +104,7 @@ export default {
           }
         },
         "theme": {
-          "customCss": "/home/prai/workspace/react-workspace/personal-website/src/css/custom.css"
+          "customCss": "/home/prai/temp/rai-prashanna.github.io/src/css/custom.css"
         }
       }
     ]

@@ -8,8 +8,8 @@
           "versionPath": "/docs",
           "isLast": true,
           "routePriority": -1,
-          "sidebarFilePath": "/home/prai/workspace/react-workspace/personal-website/sidebars.js",
-          "docsDirPath": "/home/prai/workspace/react-workspace/personal-website/docs",
+          "sidebarFilePath": "/home/prai/temp/rai-prashanna.github.io/sidebars.js",
+          "docsDirPath": "/home/prai/temp/rai-prashanna.github.io/docs",
           "mainDocId": "experience",
           "sidebars": {
             "someSidebar": [
