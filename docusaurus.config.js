@@ -39,7 +39,7 @@ module.exports = {
           items: [
             {
               label: "LinkedIn",
-              href: "https://linkedin.com/in/rai-prashanna",
+              href: "https://linkedin.com/in/prashanna-rai",
             },
             {
               label: "Stack Overflow",
