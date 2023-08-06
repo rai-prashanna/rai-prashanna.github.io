@@ -1,16 +1,16 @@
 module.exports = {
   title: "Prashanna Rai",
-  tagline: `Passionate Developer who loves React`,
-  url: "https://patrick.github.io",
+  tagline: `Passionate Developer who loves Full Stack development`,
+  url: "https://rai-prashanna.github.io/",
   baseUrl: "/",
   favicon: "img/favicon.ico",
   organizationName: "rai-prashanna", // Usually your GitHub org/user name.
   projectName: "personal-website", // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: "Patrick Rai",
+      title: "Prashanna Rai",
       logo: {
-        alt: "FullStack Javascript Engineer, Nepal",
+        alt: "FullStack Developer, Sweden",
         src: "img/avataaars.svg",
       },
       items: [
@@ -72,9 +72,6 @@ module.exports = {
           // It is recommended to set document id as docs home page (`docs/` path).
           path: 'docs',
           sidebarPath: require.resolve("./sidebars.js"),
-          // Please change this to your repo.
-          // editUrl:
-          //   "https://github.com/facebook/docusaurus/edit/master/website/",
         },
         blog: {
           showReadingTime: true,
@@ -82,9 +79,6 @@ module.exports = {
             type: "all",
             copyright: `Copyright © ${new Date().getFullYear()} Facebook, Inc.`,
           },
-          // Please change this to your repo.
-          // editUrl:
-          // "https://github.com/facebook/docusaurus/edit/master/website/blog/",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),

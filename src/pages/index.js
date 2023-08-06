@@ -12,7 +12,7 @@ const features = [
     imageUrl: "img/avataaars.svg",
     description: (
       <p>
-        Hi, It's me <b> Patrick Rai </b> from Kathmandu, Nepal. I love to
+        Hi, It's me <b> Prashanna Rai </b> from Kathmandu, Nepal. I love to
         make web apps and I'm mostly focused in frontend and equally intrested
         in server side/devOps which kinda makes me full stack though I'm not.
         <br />
@@ -85,7 +85,7 @@ function Home() {
                 "button   button--primary button--lg",
                 styles.getStarted
               )}
-              href={useBaseUrl("prashanna-2019-v11-Full-Stack.pdf")}
+              href={useBaseUrl("cv.pdf")}
             >
               Download Resume
             </a>

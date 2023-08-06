@@ -1,16 +1,16 @@
 export default {
   "title": "Prashanna Rai",
-  "tagline": "Passionate Developer who loves React",
-  "url": "https://patrick.github.io",
+  "tagline": "Passionate Developer who loves Full Stack development",
+  "url": "https://rai-prashanna.github.io/",
   "baseUrl": "/",
   "favicon": "img/favicon.ico",
   "organizationName": "rai-prashanna",
   "projectName": "personal-website",
   "themeConfig": {
     "navbar": {
-      "title": "Patrick Rai",
+      "title": "Prashanna Rai",
       "logo": {
-        "alt": "FullStack Javascript Engineer, Nepal",
+        "alt": "FullStack Developer, Sweden",
         "src": "img/avataaars.svg"
       },
       "items": [
@@ -51,7 +51,7 @@ export default {
           "items": [
             {
               "label": "LinkedIn",
-              "href": "https://linkedin.com/in/rai-prashanna"
+              "href": "https://linkedin.com/in/prashanna-rai"
             },
             {
               "label": "Stack Overflow",
@@ -73,7 +73,7 @@ export default {
           ]
         }
       ],
-      "copyright": "Copyright © 2020 Prashanna Rai. Built with Docusaurus."
+      "copyright": "Copyright © 2023 Prashanna Rai. Built with Docusaurus."
     },
     "colorMode": {
       "defaultMode": "light",
@@ -94,17 +94,17 @@ export default {
       {
         "docs": {
           "path": "docs",
-          "sidebarPath": "/home/prai/temp/rai-prashanna.github.io/sidebars.js"
+          "sidebarPath": "/home/oem/workspace/rai-prashanna.github.io/sidebars.js"
         },
         "blog": {
           "showReadingTime": true,
           "feedOptions": {
             "type": "all",
-            "copyright": "Copyright © 2020 Facebook, Inc."
+            "copyright": "Copyright © 2023 Facebook, Inc."
           }
         },
         "theme": {
-          "customCss": "/home/prai/temp/rai-prashanna.github.io/src/css/custom.css"
+          "customCss": "/home/oem/workspace/rai-prashanna.github.io/src/css/custom.css"
         }
       }
     ]
