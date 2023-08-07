@@ -1,13 +1,20 @@
 {
   "unversionedId": "experience",
   "id": "experience",
-  "isDocsHomePage": false,
   "title": "Experience",
+  "description": "",
   "source": "@site/docs/experience.md",
+  "sourceDirName": ".",
   "slug": "/experience",
   "permalink": "/docs/experience",
+  "draft": false,
+  "tags": [],
   "version": "current",
-  "sidebar_label": "Work Experience",
+  "frontMatter": {
+    "id": "experience",
+    "title": "Experience",
+    "sidebar_labe": "Work Experience"
+  },
   "sidebar": "someSidebar",
   "next": {
     "title": "My Background",

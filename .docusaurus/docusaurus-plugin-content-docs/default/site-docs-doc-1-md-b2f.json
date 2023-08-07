@@ -1,12 +1,18 @@
 {
   "unversionedId": "doc1",
   "id": "doc1",
-  "isDocsHomePage": false,
-  "title": "doc1",
+  "title": "Style Guide",
   "description": "<!--",
   "source": "@site/docs/doc1.md",
+  "sourceDirName": ".",
   "slug": "/doc1",
   "permalink": "/docs/doc1",
+  "draft": false,
+  "tags": [],
   "version": "current",
-  "sidebar_label": " "
+  "frontMatter": {
+    "id": "doc1",
+    "title": "Style Guide",
+    "sidebar_label": " "
+  }
 }

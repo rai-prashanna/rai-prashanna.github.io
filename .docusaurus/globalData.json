@@ -12,7 +12,8 @@
           "docs": [
             {
               "id": "all-apps",
-              "path": "/docs/all-apps"
+              "path": "/docs/all-apps",
+              "sidebar": "someSidebar"
             },
             {
               "id": "doc1",
@@ -20,19 +21,32 @@
             },
             {
               "id": "experience",
-              "path": "/docs/experience"
+              "path": "/docs/experience",
+              "sidebar": "someSidebar"
             },
             {
               "id": "my-background",
-              "path": "/docs/my-background"
+              "path": "/docs/my-background",
+              "sidebar": "someSidebar"
             },
             {
               "id": "projects",
-              "path": "/docs/projects"
+              "path": "/docs/projects",
+              "sidebar": "someSidebar"
             }
-          ]
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "someSidebar": {
+              "link": {
+                "path": "/docs/experience",
+                "label": "experience"
+              }
+            }
+          }
         }
-      ]
+      ],
+      "breadcrumbs": true
     }
   }
 }

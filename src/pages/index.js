@@ -12,15 +12,13 @@ const features = [
     imageUrl: "img/avataaars.svg",
     description: (
       <p>
-        Hi, It's me <b> Prashanna Rai </b> from Kathmandu, Nepal. I love to
-        make web apps and I'm mostly focused in frontend and equally intrested
-        in server side/devOps which kinda makes me full stack though I'm not.
+        Hi, My name is <b> Prashanna Rai</b>. I love to make web apps and I
+        mostly work with things that are in the Java
+        Ecosystem(backend)and equally interested in frontend side with Cloud native approach.
         <br />
-        You will find me very passionate about programming who has a keen eye
-        for new paradigms, architecture, patterns and principles.
-        <br />I love to explore new languages, indulging my time with my pet
-        projects, participating in lonely hackathons and always love to tinker
-        with new technologies.
+        <br />
+        You will find me very passionate about computer science who has a keen
+        an eye for cloud native, design patterns.
       </p>
     ),
   },
@@ -29,13 +27,9 @@ const features = [
     imageUrl: "img/undraw_docusaurus_tree.svg",
     description: (
       <p>
-        {/* Started working as a NodeJS|Angular developer(2015 A.D) and I fall in
-        love with JavaScript and its ecosystem. Before I used to play with PHP,
-        JAVA in my High School days. */}
-        I have worked from product-based company to service-based agency where I
-        worked in development of projects like Realtime Dashboards, CRM, CMS,
-        Plugins, Libraries, E-Commerce, PWA, Cloud Storages, Video Streaming,
-        etc where my primary focus was in Frontend.
+        I have worked as consultant 
+        where I worked in the development of projects like 
+        ERP, Software Assest Mangagment product, Stock clearance product etc where my primary focus was on backend, DevOps skills.
       </p>
     ),
   },

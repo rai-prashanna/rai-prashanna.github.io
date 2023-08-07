@@ -12,16 +12,17 @@ const skills = [
   "git",
   "github",
   "linux",
+  "mongodb",
   "ubuntu",
   "vsc",
   "webpack",
+  "mysql",
   "html",
   "css",
   "redux",
+  "next",
+  "gatsby",
   "graphql",
-  "java",
-  "aws",
-  "postgress"
 ];
 const Container = styled.div`
   display: flex;
@@ -47,7 +48,12 @@ const Skills = () => {
       {skills.map((skill, index) => {
         return (
           <Item key={index}>
+            <a
+              href={'https://github.com/rai-prashanna/rai-prashanna.github.io'}
+              target="_blank"
+            >
               <Image name={skill} alt={skill} />
+            </a>
           </Item>
         );
       })}

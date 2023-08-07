@@ -5,18 +5,26 @@ import {
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import list from "./list";
+import "./style.module.css";
 
 const ExperienceTimeline = () => {
   return (
-    <div style={{ background: "#d8d8d8", borderRadius: "5px" }}>
-      <VerticalTimeline>
+    <div
+      style={{
+        borderRadius: "5px",
+      }}
+    >
+      <VerticalTimeline className="vertical-timeline-custom-line">
         {list.map((experience) => {
           return (
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
-              contentStyle={{ background: "rgb(33, 150, 243)" }}
               contentArrowStyle={{
-                borderRight: "7px solid  rgb(33, 150, 243)",
+                borderRight: "7px solid",
+              }}
+              contentStyle={{
+                borderTop: "5px solid red",
+                boxShadow: "0px 0px 1px 0px",
               }}
               date={experience.date}
               iconStyle={{ background: "white" }}
@@ -25,7 +33,7 @@ const ExperienceTimeline = () => {
               <a
                 href={experience.website}
                 target="_blank"
-                style={{ color: "white" }}
+                style={{ color: "#2F4F4F" }}
               >
                 <h3 className="vertical-timeline-element-title">
                   {experience.role}
@@ -34,12 +42,13 @@ const ExperienceTimeline = () => {
                   {experience.location}
                 </h4>
               </a>
-              <p>{<experience.description />}</p>
+              <p style={{ color: "#696969" }}>{<experience.description />}</p>
             </VerticalTimelineElement>
           );
         })}
 
         <VerticalTimelineElement
+          style={{}}
           iconStyle={{ background: "rgb(16, 204, 82)", color: "#fff" }}
         />
       </VerticalTimeline>

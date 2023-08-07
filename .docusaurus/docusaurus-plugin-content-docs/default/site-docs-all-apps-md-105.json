@@ -1,13 +1,19 @@
 {
   "unversionedId": "all-apps",
   "id": "all-apps",
-  "isDocsHomePage": false,
   "title": "100 Apps",
   "description": "coming soon",
   "source": "@site/docs/all-apps.md",
+  "sourceDirName": ".",
   "slug": "/all-apps",
   "permalink": "/docs/all-apps",
+  "draft": false,
+  "tags": [],
   "version": "current",
+  "frontMatter": {
+    "id": "all-apps",
+    "title": "100 Apps"
+  },
   "sidebar": "someSidebar",
   "previous": {
     "title": "My Works",

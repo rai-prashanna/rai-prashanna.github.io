@@ -3,6 +3,8 @@ id: my-background
 title: My Background
 ---
 
-I am always striving to be broaden my knowledge and sharpen my skills. I love working in environment with lots of challenges and brilliant people to share those challenges with. I am very passionate about programming. I have keen eye for new paradigms and architecture. Though I am comfortable in one language, I also like to explore new languages. I also like indulging my time with my pet projects and participating in hackathons also i like to stay updated with the latest technologies.
+I am a hard-working, positive, easy going technophile who is continuously keen to learn new things in every single moment possible. I like to spend my free time with my own IT-projects. It would be greatly inspiring to work with people who - despite being the best of their specializations - remain humble and are interested to learn and find solutions together. My ambition is to help bring Nepal into the spotlight of IT world. My long-term career objective is to be a lead developer along with the knowledge of requirements engineering, data mining and IT risk analyst. I would love to be in a place that requires my people skills as well as my technical competence.
+Right now I am searching for an opportunity to align my study with my professional career so that I will get inspired in the future.
+
 <br/>
-As a self learner, I started programming from mid of 2012, started from PHP and then HTML, CSS, Javascript. Learned it for a whole day of 2013 and then I started learning android and java from 2014-2015.In between this years, i also learned database, networking and built projects like a clone of google adsense and google analytics, android mobile games and apps, windows desktop software. On March 2015 I got my first job and started working with team.
+

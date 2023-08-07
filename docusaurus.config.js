@@ -1,11 +1,11 @@
 module.exports = {
   title: "Prashanna Rai",
-  tagline: `Passionate Developer who loves Full Stack development`,
+  tagline: `Passionate Developer who loves Java and Angular`,
   url: "https://rai-prashanna.github.io/",
   baseUrl: "/",
   favicon: "img/favicon.ico",
   organizationName: "rai-prashanna", // Usually your GitHub org/user name.
-  projectName: "personal-website", // Usually your repo name.
+  projectName: "website", // Usually your repo name.
   themeConfig: {
     navbar: {
       title: "Prashanna Rai",
@@ -14,21 +14,22 @@ module.exports = {
         src: "img/avataaars.svg",
       },
       items: [
-        {
-          to: "docs/experience",
-          activeBasePath: "docs",
-          label: "More",
-          position: "left",
-        },
+        { to: "blog", label: "Notes", position: "left" },
         { to: "docs/experience", label: "Experience", position: "left" },
         { to: "docs/projects", label: "Works", position: "left" },
 
-        { to: "blog", label: "Notes", position: "left" },
         {
           href: "https://github.com/rai-prashanna",
           label: "GitHub",
           position: "right",
         },
+
+        // {
+        //   to: "docs/",
+        //   activeBasePath: "docs",
+        //   label: "More",
+        //   position: "left",
+        // },
       ],
     },
     footer: {
@@ -39,11 +40,11 @@ module.exports = {
           items: [
             {
               label: "LinkedIn",
-              href: "https://linkedin.com/in/prashanna-rai",
+              href: "https://www.linkedin.com/in/prashanna-rai/",
             },
             {
               label: "Stack Overflow",
-              href: "https://stackoverflow.com/users/patrick",
+              href: "https://stackoverflow.com/users/12053011/prashanna-rai",
             }
           ],
         },
@@ -60,8 +61,9 @@ module.exports = {
             },
           ],
         },
-      ],
-      copyright: `Copyright © ${new Date().getFullYear()} Prashanna Rai. Built with Docusaurus.`,
+      ]
+      // ,
+      // copyright: `Copyright © ${new Date().getFullYear()} Prashanna Rai. Built with Docusaurus.`,
     },
   },
   presets: [
@@ -70,8 +72,11 @@ module.exports = {
       {
         docs: {
           // It is recommended to set document id as docs home page (`docs/` path).
-          path: 'docs',
+          // homePageId: "experience",
           sidebarPath: require.resolve("./sidebars.js"),
+          // Please change this to your repo.
+          // editUrl:
+          //   "https://github.com/facebook/docusaurus/edit/master/website/",
         },
         blog: {
           showReadingTime: true,
@@ -79,6 +84,9 @@ module.exports = {
             type: "all",
             copyright: `Copyright © ${new Date().getFullYear()} Facebook, Inc.`,
           },
+          // Please change this to your repo.
+          // editUrl:
+          // "https://github.com/facebook/docusaurus/edit/master/website/blog/",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
