@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkrai_prashanna_github_io=self.webpackChunkrai_prashanna_github_io||[]).push([[669],{6672:function(a){a.exports=JSON.parse('{"permalink":"/blog/tags/hello-world","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
