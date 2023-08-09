@@ -1,15 +1,14 @@
 import React from "react";
-import ReactIcon from "@site/static/img/techs/react.svg";
-import JSIcon from "@site/static/img/techs/js.svg";
-import TsIcon from "@site/static/img/techs/typescript.svg";
 import NodeIcon from "@site/static/img/techs/nodejs.svg";
 import JavaIcon from "@site/static/img/techs/java.svg";
+import SparkIcon from "@site/static/img/techs/spark.svg";
+import PlaywrightIcon from "@site/static/img/techs/playwright.svg";
 
 export default [
   {
     date: "1 Feb 2023 - 31 July 2023",
-    role: "Master Thesis ‑ Cloud Native Authorization",
-    location: "Sweden",
+    role: "Master Thesis Cloud Native Authorization - Ericsson",
+    location: "Kista, Sweden",
     website: "https://www.ericsson.com/en",
     icon: <JavaIcon />,
     description: () => (
@@ -25,9 +24,59 @@ export default [
         </li>
         <li>The thesis project involves Kubernetes, Open Policy agent, and some Java Security and Python Security programming, threat modeling when
           integrating with OPA with existing service.</li>
-          <li> 
-          <a href="https://iamprashannarai.github.io/myPresentations/">link to my Presentation can be found</a> 
-          </li>
+        <li>
+          <a href="https://iamprashannarai.github.io/myPresentations/">link to my Presentation can be found</a>
+        </li>
+      </ul>
+    ),
+  }
+  ,
+  {
+    date: "Jan 2023 - Apr 2023",
+    role: "Teaching assistant - Uppsala University",
+    location: "Uppsala, Sweden",
+    website: "https://www.uu.se/",
+    icon: <SparkIcon />,
+    description: () => (
+      <ul>
+        <li>
+          participation in labs and tutorials/lessons of Hadoop, Spark, and Openstack, grading of assignments, answering student’s questions, and su‑
+          pervision of student projects in the Data Engineering course.
+        </li>
+      </ul>
+    ),
+  },
+  {
+    date: "Oct 2022 - Jan 2023",
+    role: "Test Automation Engineer - Dewire by Knightec",
+    location: "Stockholm, Sweden",
+    website: "https://knightec.se/",
+    icon: <PlaywrightIcon />,
+    description: () => (
+      <ul>
+        <li>
+          Test automation of React application using Playwright. The application is a service portal for Boule’s hematology analyzer BM‑850 and eventu‑
+          ally the newer BM‑900 model.
+        </li>
+      </ul>
+    ),
+  }
+  ,
+  {
+    date: "Jun 2022 - Aug 2022",
+    role: "Associate Engineer - Dewire by Knightec",
+    location: "Sundsvall, Sweden",
+    website: "https://knightec.se/",
+    icon: <JavaIcon />,
+    description: () => (
+      <ul>
+        <li>
+          Summer Job
+        </li>
+        <li>maintaining Angular project</li>
+        <li>Unit‑testing and Integration testing of Spring boot Application. The application is service gateway to integrate Telia numbers to Microsoft teams
+        </li>
+        <li> writing Fullstack application to unified view of swagger of microservices</li>
       </ul>
     ),
   }

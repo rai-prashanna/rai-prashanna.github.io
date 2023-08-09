@@ -2,9 +2,11 @@
 id: my-background
 title: My Background
 ---
+I am soon to graduate from Uppsala University in 2023. I did my Master’s thesis at Ericsson topic called Cloud native authorization.
+My Master’s program is specialized in the area of Advance Software Design, Data Engineering, Parallel and Concurrent Programming, and Advanced Computer Architecture. My study has helped me with a basic understanding of challenges in
+Data‑Engineering, high‑level Software Development, Parallel and Concurrent Programming, and Advanced Computer Architecture. Apart from my educational background, I have some working experience with Java applications and React applications from the industry. My thesis was related to work in Java programming and Python programming. I have some experience with c++ in university courses. I have demonstrated strength in understanding and handling complex technical issues of production service. I would like to work with products and assignments that allow me to grow, both as a problem solver and as a person. Connecting to people and maintaining contacts is also something that I find stimulating. In my spare time, I like running. I try to be outdoors in nature as often as possible
+and I love hiking.
 
-I am a hard-working, positive, easy going technophile who is continuously keen to learn new things in every single moment possible. I like to spend my free time with my own IT-projects. It would be greatly inspiring to work with people who - despite being the best of their specializations - remain humble and are interested to learn and find solutions together. My ambition is to help bring Nepal into the spotlight of IT world. My long-term career objective is to be a lead developer along with the knowledge of requirements engineering, data mining and IT risk analyst. I would love to be in a place that requires my people skills as well as my technical competence.
-Right now I am searching for an opportunity to align my study with my professional career so that I will get inspired in the future.
 
 <br/>
 

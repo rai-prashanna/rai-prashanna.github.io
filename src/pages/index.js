@@ -29,7 +29,7 @@ const features = [
       <p>
         I have worked as consultant 
         where I worked in the development of projects like 
-        ERP, Software Assest Mangagment product, Stock clearance product etc where my primary focus was on backend, DevOps skills.
+        ERP, Software Assest Mangagment product, Stock clearance product etc where my primary focus was on backend, DevOps skills and test-automation code.
       </p>
     ),
   },

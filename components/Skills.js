@@ -3,26 +3,23 @@ import PublicImage from "./PublicImage";
 import styled from "styled-components";
 
 const skills = [
-  "typescript",
-  "js",
-  "react",
-  "nodejs",
-  "express",
+  "kubernetes",
   "docker",
-  "git",
-  "github",
-  "linux",
+  "java",
+  "jakarta-ee",
+  "python",
+  "playwright",
+  "spring",
+  "spark",
+  "hadoop_logo",
+  "postgreSQL",
   "mongodb",
+  "git",
+  "linux",
   "ubuntu",
-  "vsc",
-  "webpack",
-  "mysql",
   "html",
   "css",
-  "redux",
-  "next",
-  "gatsby",
-  "graphql",
+  "js"
 ];
 const Container = styled.div`
   display: flex;
