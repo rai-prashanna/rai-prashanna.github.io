@@ -3,6 +3,8 @@ import NodeIcon from "@site/static/img/techs/nodejs.svg";
 import JavaIcon from "@site/static/img/techs/java.svg";
 import SparkIcon from "@site/static/img/techs/spark.svg";
 import PlaywrightIcon from "@site/static/img/techs/playwright.svg";
+import QAIcon from "@site/static/img/techs/quality-assurance.svg";
+
 
 export default [
   {
@@ -77,6 +79,45 @@ export default [
         <li>Unit‑testing and Integration testing of Spring boot Application. The application is service gateway to integrate Telia numbers to Microsoft teams
         </li>
         <li> writing Fullstack application to unified view of swagger of microservices</li>
+      </ul>
+    ),
+  },
+  {
+    date: "Mar 2020 - Jun 2020",
+    role: "REMOTE SOFTWARE CONSULTANT (QUALITY ASSURANCE ENGINEER)",
+    location: "Sweden",
+    website: "https://www.xensam.com/",
+    icon: <QAIcon />,
+    description: () => (
+      <ul>
+        <li>
+        Working as QA including writing unit tests, manual testing
+        </li>
+        <li>
+        Spinning up testing environments with HyperV, KVM, Active Directory Domain controller
+        </li>
+        <li>
+        Test data management with open source AD‐lab generator
+        </li>
+      </ul>
+    ),
+  },
+  {
+    date: "Aug 2019 - Sep 2019",
+    role: "QUALITY ASSURANCE ENGINEER AND TESTER",
+    location: "Sweden",
+    website: "https://www.xensam.com/",
+    icon: <QAIcon />,
+
+    description: () => (
+      <ul>
+        <li>
+        Designing a test strategy/test plan.
+        </li>
+        <li>
+        Reporting software defects and work with development team to resolve them.
+        </li>
+        <li>Documenting and communicating findings and software quality improvements.</li>
       </ul>
     ),
   }
