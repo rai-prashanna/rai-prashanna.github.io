@@ -18,7 +18,7 @@ const skills = [
   "git",
   "ubuntu",
   "html",
-  "css",
+  "apache-pulsar",
   "js"
 ];
 const Container = styled.div`
