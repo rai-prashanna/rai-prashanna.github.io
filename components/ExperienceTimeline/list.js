@@ -4,14 +4,31 @@ import JSIcon from "@site/static/img/techs/js.svg";
 import TsIcon from "@site/static/img/techs/typescript.svg";
 import NodeIcon from "@site/static/img/techs/nodejs.svg";
 import JavaIcon from "@site/static/img/techs/java.svg";
+import EricssonIcon from "@site/static/images/ericsson-icon.svg";
+import BrokerwayIcon from "@site/static/images/brokerway.svg";
 
 export default [
+  {
+    date: "1 Jul 2023 - Present",
+    role: "Full stack developer",
+    location: "Sweden",
+    website: "https://www.brokerway.com/",
+    img: BrokerwayIcon,
+    description: () => (
+      <ul>
+        <li>
+        My responsibilities are developing a frontend view in angular application and creating REST API‑based Jakarta EE application for STX product that handles post‑trade processes like clearing settlement, and corporate actions. Since our team is small, my assignment also involved providing first-line support and collecting user requirements from stakeholders.
+        </li>
+        <li>My work involves with Jakarta EE, AngularJS, Tortoise SVN, Erwin.</li>
+      </ul>
+    ),
+  },
   {
     date: "1 Feb 2023 - 31 July 2023",
     role: "Master Thesis ‑ Cloud Native Authorization",
     location: "Sweden",
     website: "https://www.ericsson.com/en",
-    icon: <JavaIcon />,
+    icon: <EricssonIcon />,
     description: () => (
       <ul>
         <li>
@@ -51,61 +68,5 @@ export default [
   //       <li>Create a plugin to be pluggable on any website.</li>
   //     </ul>
   //   ),
-  // },
-  // {
-  //   date: "Jun 2016 - Dec 2017",
-  //   role: "JavaScript Developer - Introcept Nepal ",
-  //   location: "Lalitpur, Nepal",
-  //   website: "http://nepal.introcept.co/",
-  //   icon: <ReactIcon />,
-  //   description: () => (
-  //     <ul>
-  //       <li>Part of the front end development team of their Vue web app.</li>
-  //       <li>
-  //         Managed application state maintaining the Single source of truth.
-  //         (Vuex)
-  //       </li>
-  //       <li>Developed & maintained reusable components repository.</li>
-  //       <li>
-  //         Maintained Code quality, frontend project structure. (Linting/Strict
-  //         typing)
-  //       </li>
-  //       <li>Developed RESTful API using laravel.</li>
-  //       <li>Managed the application using bundling tool. (Webpack)</li>
-  //       <li>Regularly Monitored application performance.(Sentry/DevTools)</li>
-  //       <li>Delivered scalable client application (https://agentcis.com/)</li>
-  //       <li>
-  //         Managed Knowledge sharing session and Presentation of new trends
-  //         internally
-  //       </li>
-  //       <li>Prevented Security issues</li>
-  //     </ul>
-  //   ),
-  // },
-  // {
-  //   date: "Mar 2015 - May 2016",
-  //   role: "NodeJS Developer- ZyobaLabs",
-  //   location: "Kathmandu, Nepal",
-  //   icon: <NodeIcon />,
-  //   description: () => (
-  //     <ul>
-  //       <li>
-  //         {" "}
-  //         Built API's using express Analyzed code quality and application
-  //       </li>
-  //       <li>
-  //         performance Integrated API with AngularJS Analyzed user experience
-  //         Full
-  //       </li>
-  //       <li>
-  //         stack development using Node.js, Express, Angular, and Mysql Delivered
-  //       </li>
-  //       <li>
-  //         fast and speedy client interface Created charts and visualization
-  //         using
-  //       </li>
-  //       <li>D3, D3plus</li>
-  //     </ul>
-  //   ),
-  // },
+  // }
 ];
