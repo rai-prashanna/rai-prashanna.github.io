@@ -3,26 +3,23 @@ import PublicImage from "./PublicImage";
 import styled from "styled-components";
 
 const skills = [
-  "typescript",
-  "js",
-  "react",
-  "nodejs",
-  "express",
+  "java",
+  "jakarta-ee",
+  "spring",
+  "angular",
   "docker",
+  "kubernetes",
+  "python",
   "git",
-  "github",
-  "linux",
-  "mongodb",
+  "playwright",
   "ubuntu",
-  "vsc",
-  "webpack",
-  "mysql",
+  "spark",
+  "hadoop_logo",
+  "apache-pulsar",
+  "postgreSQL",
+  "openpolicyagent",
   "html",
-  "css",
-  "redux",
-  "next",
-  "gatsby",
-  "graphql",
+  "css"
 ];
 const Container = styled.div`
   display: flex;
@@ -30,14 +27,14 @@ const Container = styled.div`
   flex-wrap: wrap;
 `;
 const Item = styled.div`
-  width: 5rem;
+  width: 5.5rem;
   height: 5rem;
   padding: 0.5rem;
   transition: width 0.5s;
 
   &:hover {
-    width: 4rem;
-    height: 4rem;
+    width: 7rem;
+    height: 7rem;
   }
 `;
 const Image = styled(PublicImage)``;

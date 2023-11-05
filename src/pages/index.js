@@ -14,11 +14,11 @@ const features = [
       <p>
         Hi, My name is <b> Prashanna Rai</b>. I love to make web apps and I
         mostly work with things that are in the Java
-        Ecosystem(backend)and equally interested in frontend side with Cloud native approach.
+        Ecosystem(backend), frontend side  and equally interested in with Cloud native approach.
         <br />
         <br />
         You will find me very passionate about computer science who has a keen
-        an eye for cloud native, design patterns.
+        an eye for Concurrency and parallel programming, cloud native, design patterns.
       </p>
     ),
   },
@@ -28,8 +28,8 @@ const features = [
     description: (
       <p>
         I have worked as consultant 
-        where I worked in the development of projects like 
-        ERP, Software Assest Mangagment product, Stock clearance product etc where my primary focus was on backend, DevOps skills.
+        where I worked in the development of projects like Financial sector,
+        Mangagment systems, Software Assest Mangagment product, etc where my primary focus was on full stack develpoment skills.
       </p>
     ),
   },
