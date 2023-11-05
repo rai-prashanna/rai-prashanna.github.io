@@ -5,7 +5,7 @@ module.exports = {
   baseUrl: "/",
   favicon: "img/favicon.ico",
   organizationName: "rai-prashanna", // Usually your GitHub org/user name.
-  projectName: "website", // Usually your repo name.
+  projectName: "rai-prashanna.github", // Usually your repo name.
   themeConfig: {
     navbar: {
       title: "Prashanna Rai",
