@@ -3,9 +3,13 @@ import ReactIcon from "@site/static/img/techs/react.svg";
 import JSIcon from "@site/static/img/techs/js.svg";
 import TsIcon from "@site/static/img/techs/typescript.svg";
 import NodeIcon from "@site/static/img/techs/nodejs.svg";
-import JavaIcon from "@site/static/img/techs/java.svg";
+import JavaEEIcon from "@site/static/img/techs/jakarta-ee.svg";
 import EricssonIcon from "@site/static/images/ericsson-icon.svg";
 import BrokerwayIcon from "@site/static/images/brokerway.svg";
+import SparkIcon from "@site/static/img/techs/spark.svg";
+import PlaywrightIcon from "@site/static/img/techs/playwright.svg";
+import QAIcon from "@site/static/img/techs/quality-assurance.svg";
+import JavaIcon from "@site/static/img/techs/java.svg";
 
 export default [
   {
@@ -13,7 +17,7 @@ export default [
     role: "Full stack developer",
     location: "Sweden",
     website: "https://www.brokerway.com/",
-    img: BrokerwayIcon,
+    icon: <BrokerwayIcon />,
     description: () => (
       <ul>
         <li>
@@ -36,8 +40,8 @@ export default [
           in a private cloud
         </li>
         <li>
-          It was observed that there was almost small difference in latency i.e 1.109 times slower in latency when service was integrated with OPA as
-          SideCar. But in the case of fine‑grained authorization, as data grows, Wasm‑based system integration performs well i.e 1.30 times faster than
+          It was observed that there was almost small difference in latency i.e 10% slower in latency when service was integrated with OPA as
+          SideCar. But in the case of fine‑grained authorization, as data grows, Wasm‑based system integration performs well i.e 30% faster than
           the existing authorization system.
         </li>
         <li>The thesis project involves Kubernetes, Open Policy agent, and some Java Security and Python Security programming, threat modeling when
@@ -48,25 +52,94 @@ export default [
       </ul>
     ),
   }
-  // ,
-  // {
-  //   date: "Dec 2017 - Dec 2019",
-  //   role: "JavaScript Developer -  Javra Software",
-  //   location: "Kathmandu, Nepal",
-  //   website: "http://www.javra.com",
-  //   icon: <JSIcon />,
-  //   description: () => (
-  //     <ul>
-  //       <li>
-  //         Led the development and adoption of React to a dashboard web app.
-  //       </li>
-  //       <li>Write application using latest EcmaScript specification</li>
-  //       <li>
-  //         Build an interface to manipulate the image for e-commerce
-  //         products.(Fabricjs)
-  //       </li>
-  //       <li>Create a plugin to be pluggable on any website.</li>
-  //     </ul>
-  //   ),
-  // }
+  ,
+  {
+    date: "Jan 2023 - Apr 2023",
+    role: "Teaching assistant - Uppsala University",
+    location: "Uppsala, Sweden",
+    website: "https://www.uu.se/",
+    icon: <SparkIcon />,
+    description: () => (
+      <ul>
+        <li>
+          participation in labs and tutorials/lessons of Hadoop, Spark, and Openstack, grading of assignments, answering student’s questions, and su‑
+          pervision of student projects in the Data Engineering course.
+        </li>
+      </ul>
+    ),
+  },
+  {
+    date: "Oct 2022 - Jan 2023",
+    role: "Test Automation Engineer - Dewire by Knightec",
+    location: "Stockholm, Sweden",
+    website: "https://knightec.se/",
+    icon: <PlaywrightIcon />,
+    description: () => (
+      <ul>
+        <li>
+          Test automation of React application using Playwright. The application is a service portal for Boule’s hematology analyzer BM‑850 and eventu‑
+          ally the newer BM‑900 model.
+        </li>
+      </ul>
+    ),
+  }
+  ,
+  {
+    date: "Jun 2022 - Aug 2022",
+    role: "Associate Engineer - Dewire by Knightec",
+    location: "Sundsvall, Sweden",
+    website: "https://knightec.se/",
+    icon: <JavaIcon />,
+    description: () => (
+      <ul>
+        <li>
+          Summer Job
+        </li>
+        <li>maintaining Angular project</li>
+        <li>Unit‑testing and Integration testing of Spring boot Application. The application is service gateway to integrate Telia numbers to Microsoft teams
+        </li>
+        <li> writing Fullstack application to unified view of swagger of microservices</li>
+      </ul>
+    ),
+  },
+  {
+    date: "Mar 2020 - Jun 2020",
+    role: "REMOTE SOFTWARE CONSULTANT (QUALITY ASSURANCE ENGINEER)",
+    location: "Sweden",
+    website: "https://www.xensam.com/",
+    icon: <QAIcon />,
+    description: () => (
+      <ul>
+        <li>
+        Working as QA including writing unit tests, manual testing
+        </li>
+        <li>
+        Spinning up testing environments with HyperV, KVM, Active Directory Domain controller
+        </li>
+        <li>
+        Test data management with open source AD‐lab generator
+        </li>
+      </ul>
+    ),
+  },
+  {
+    date: "Aug 2019 - Sep 2019",
+    role: "QUALITY ASSURANCE ENGINEER AND TESTER",
+    location: "Sweden",
+    website: "https://www.xensam.com/",
+    icon: <QAIcon />,
+
+    description: () => (
+      <ul>
+        <li>
+        Designing a test strategy/test plan.
+        </li>
+        <li>
+        Reporting software defects and work with development team to resolve them.
+        </li>
+        <li>Documenting and communicating findings and software quality improvements.</li>
+      </ul>
+    ),
+  }
+
 ];

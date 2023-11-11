@@ -13,9 +13,9 @@
           "tagsPath": "/docs/tags",
           "isLast": true,
           "routePriority": -1,
-          "sidebarFilePath": "/home/oem/workspace/my-website/rai-prashanna.github.io/sidebars.js",
-          "contentPath": "/home/oem/workspace/my-website/rai-prashanna.github.io/docs",
-          "contentPathLocalized": "/home/oem/workspace/my-website/rai-prashanna.github.io/i18n/en/docusaurus-plugin-content-docs/current",
+          "sidebarFilePath": "C:\\Users\\PrashannaRai.AzureAD\\workspace\\rai-prashanna.github.io\\sidebars.js",
+          "contentPath": "C:\\Users\\PrashannaRai.AzureAD\\workspace\\rai-prashanna.github.io\\docs",
+          "contentPathLocalized": "C:\\Users\\PrashannaRai.AzureAD\\workspace\\rai-prashanna.github.io\\i18n\\en\\docusaurus-plugin-content-docs\\current",
           "docs": [
             {
               "unversionedId": "all-apps",
