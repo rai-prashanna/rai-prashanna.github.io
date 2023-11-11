@@ -10,6 +10,8 @@ import SparkIcon from "@site/static/img/techs/spark.svg";
 import PlaywrightIcon from "@site/static/img/techs/playwright.svg";
 import QAIcon from "@site/static/img/techs/quality-assurance.svg";
 import JavaIcon from "@site/static/img/techs/java.svg";
+import UUIcon from "@site/static/img/UU_logo_color.svg";
+import DockerIcon from "@site/static/img/techs/docker.svg";
 
 export default [
   {
@@ -17,7 +19,7 @@ export default [
     role: "Full stack developer",
     location: "Sweden",
     website: "https://www.brokerway.com/",
-    icon: <BrokerwayIcon />,
+    icon: <JavaIcon />,
     description: () => (
       <ul>
         <li>
@@ -32,7 +34,7 @@ export default [
     role: "Master Thesis ‑ Cloud Native Authorization",
     location: "Sweden",
     website: "https://www.ericsson.com/en",
-    icon: <EricssonIcon />,
+    icon: <JavaIcon />,
     description: () => (
       <ul>
         <li>
@@ -138,6 +140,43 @@ export default [
         Reporting software defects and work with development team to resolve them.
         </li>
         <li>Documenting and communicating findings and software quality improvements.</li>
+      </ul>
+    ),
+  },
+  {
+    date: "Jan 2018 - Aug 2018",
+    role: "SOFTWARE ENGINEER (DevOps Engineer)",
+    location: "Kathmandu, Nepal",
+    website: "https://fusemachines.com/",
+    icon: <DockerIcon/>,
+
+    description: () => (
+      <ul>
+        <li>
+        Create continuous delivery pipeline with Jenkinsfile.
+        </li>
+        <li>
+        Customize Dockerfile of Jupyterhub notebook to allow multi-user saving their document.
+        </li>
+        <li>Create Orchestration for ingestion pipeline environment with help of ansible.</li>
+        <li>Automating deployment of Linux applications and system configurations</li>
+      </ul>
+    ),
+  },
+  {
+    date: "Aug 2016 - Dec 2017",
+    role: "SOFTWARE ENGINEER ASSOCIATE (Java Developer)",
+    location: "Kathmandu, Nepal",
+    website: "https://fusemachines.com/",
+    icon: <JavaIcon/>,
+
+    description: () => (
+      <ul>
+        <li>
+        Part of a team with the responsibility of creating service of automation of realistic performance testing.
+        </li>
+        <li>Created Rest Api solutions for bussiness logic in Spring boot framework.</li>
+        <li>Reviewing and resolving issues and software bugs.</li>
       </ul>
     ),
   }
